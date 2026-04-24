@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# SQLite database (generated at runtime by orchestrator)
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
